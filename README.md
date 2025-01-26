@@ -48,8 +48,8 @@ cd kittygram_final
 * DB_NAME=db_name
 * DB_HOST=db
 * DB_PORT=5432
-* SECRET_KEY = ваш_секретный_ключ
-* ALLOWED_HOSTS = ваш_ip, 127.0.0.1, localhost, ваше_имя_домена(если есть)
+* ALLOWED_HOST = ваш_ip
+* ALLOWED_HOST_DOMAIN = ваше_имя_домена(если есть)
 * DEBUG = False
 
 При каждом пуше в ветку main GitHub Actions автоматически запустит тесты, соберет Docker-образы, и развернёт проект на сервере.
